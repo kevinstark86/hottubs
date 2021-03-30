@@ -110,7 +110,7 @@ a {
 
 .hero-left {
     flex: calc(55%);
-    margin-top: 10rem;
+    margin-top: 6rem;
 }
 
 .hero-right {
@@ -209,6 +209,13 @@ input {
     text-align: center;
 }
 
+.hero-btn-small {
+    padding: 1.5rem 4rem;
+    background-color: #3c83cb;
+    color: white;
+    text-align: center;
+}
+
 .hero-btns {
     padding: 1.5rem 2.5rem;
     background-color: #c73232;
@@ -227,9 +234,19 @@ input {
     flex-direction: row;
 }
 
+.link-box-3 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
 .link-left {
     margin-right: 5rem;
 }
+
+
 
 @media only screen and (max-width: 773px) {
     .link-box {
@@ -245,6 +262,11 @@ input {
     }
 
     .link-box-2 {
+        flex-direction: column;
+
+    }
+
+    .link-box-3 {
         flex-direction: column;
 
     }
@@ -267,13 +289,14 @@ input {
     max-width: 70rem;
     margin: 0 auto;
     text-align: center;
-    margin-top: 20rem;
+    padding-top: 10rem;
 }
 
 @media only screen and (max-width: 773px) {
     .section-heading {
         margin-left: 2rem;
         margin-right: 2rem;
+        padding-top: 5rem;
     }
 }
 
@@ -354,6 +377,12 @@ img {
 .section-colour{
     margin-top: 20rem;
 }
+
+@media only screen and (max-width: 773px) {
+    .section-colour {
+        margin-top: 5rem;
+    }
+}
 /* Gallary Slider End */
 
 /* Product Section Start */
@@ -361,6 +390,12 @@ img {
 .section-flex {
     display: flex;
     margin-top: 10rem;
+}
+
+@media only screen and (max-width: 773px) {
+    .section-flex {
+        margin-top: 5rem;
+    }
 }
 
 .left {
@@ -389,10 +424,14 @@ img {
     background-color: #3c83cb;
 }
 
+
+
 .section-container {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
+
+
 /* section two end */
 
 /*footer start */
